@@ -14,6 +14,28 @@ The application allows users to:
 - Run the application as a **cross-platform desktop app** using Tauri
 
 The emphasis of this project is on **functionality, architecture, and problem-solving**, not UI polish.
+---
+
+## Tech Stack
+
+### Frontend
+- **React (Vite)**
+- MediaRecorder API for microphone access and audio capture
+- WebSocket for real-time audio streaming and transcription events
+
+### Backend
+- **Node.js**
+- WebSocket server acting as a secure proxy
+- Deepgram API integration (API key never exposed to frontend)
+
+### Speech-to-Text
+- **Deepgram Real-Time Speech-to-Text API**
+- Streaming Opus-encoded audio for low-latency transcription
+
+### Desktop Platform
+- **Tauri**
+- Lightweight, secure alternative to Electron
+- Cross-platform support (Windows, macOS, Linux)
 
 ---
 ##Project Architecture Diagram
@@ -61,28 +83,6 @@ wispr-flow-clone/
 │
 └── README.md              # Main project documentation
 ```
----
-
-## Tech Stack
-
-### Frontend
-- **React (Vite)**
-- MediaRecorder API for microphone access and audio capture
-- WebSocket for real-time audio streaming and transcription events
-
-### Backend
-- **Node.js**
-- WebSocket server acting as a secure proxy
-- Deepgram API integration (API key never exposed to frontend)
-
-### Speech-to-Text
-- **Deepgram Real-Time Speech-to-Text API**
-- Streaming Opus-encoded audio for low-latency transcription
-
-### Desktop Platform
-- **Tauri**
-- Lightweight, secure alternative to Electron
-- Cross-platform support (Windows, macOS, Linux)
 
 ---
 
