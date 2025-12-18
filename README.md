@@ -54,7 +54,7 @@ wispr-flow-clone/
 │   └── test.js
 │
 └── README.md              # Main project documentation
-
+```
 ---
 
 ## Tech Stack
@@ -198,7 +198,7 @@ Inside the `server` folder, create a file named `.env`:
 ```env
 DEEPGRAM_API_KEY=YOUR_DEEPGRAM_API_KEY_HERE
 
-
+```
 ### 3️⃣ Install Dependencies
 Backend
 cd server
