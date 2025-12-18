@@ -15,6 +15,17 @@ The application allows users to:
 
 The emphasis of this project is on **functionality, architecture, and problem-solving**, not UI polish.
 
+---
+
+## Project Presentation
+
+
+
+https://github.com/user-attachments/assets/0f02dc27-b76d-4bea-8707-557e517d1914
+
+
+
+---
 
 ## Tech Stack
 
