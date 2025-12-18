@@ -16,6 +16,12 @@ The application allows users to:
 The emphasis of this project is on **functionality, architecture, and problem-solving**, not UI polish.
 
 ---
+##Project Architecture Diagram
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/04fcd8eb-0153-4948-a82f-6e37cdd8cd73" />
+
+
+---
 
 
 ## Final Project Structure
