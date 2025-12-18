@@ -14,7 +14,7 @@ The application allows users to:
 - Run the application as a **cross-platform desktop app** using Tauri
 
 The emphasis of this project is on **functionality, architecture, and problem-solving**, not UI polish.
----
+
 
 ## Tech Stack
 
